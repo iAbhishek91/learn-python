@@ -12,4 +12,10 @@ python --version
 
 # execute a program
 python to/file/path/test.py
+
+# enter python command line
+py
+
+# exit from the python command line
+>>>exit()
 ```
