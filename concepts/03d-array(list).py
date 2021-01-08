@@ -4,8 +4,10 @@
 
 # What is the diff between array and list
 ## all array are list, but all list are not array.
-## array holds only one data-type by list holds anytype data.
-# LIST are ORDERED, MUTABLE, allow DUPLICATE(else refer Set)
+## array holds only one data-type but list holds any type data.
+
+# Basic characteristics are same for List and Array
+## LIST and ARRAY are ORDERED, MUTABLE, allow DUPLICATE(else refer Set)
 
 # DESTRUCTURE array
 
