@@ -19,7 +19,6 @@ print(z) # OUTPUT: Cherry
 
 
 # one value to multiple variable
-
 x = y = z = "test"
 
 # GLOBAL value
@@ -31,7 +30,7 @@ def myFunc():
   y = "I AM LOCAL"
   global z1
   z1 = "I AM CONVERTED GLOBAL"
-  print(x + " | " + y + " | " + z1) # OUTPUT: I AM GLOBAL | I AM LOCAL | I AM CONVERTED GLOBAL
+  print(x + " | " + y + " | " + z1)
 
-myFunc()
+myFunc() # OUTPUT: I AM GLOBAL | I AM LOCAL | I AM CONVERTED GLOBAL
 print(z1) # OUTPUT: I AM CONVERTED GLOBAL

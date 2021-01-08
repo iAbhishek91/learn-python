@@ -16,54 +16,54 @@ apple , banana, grape = array
 print(apple + " " + banana + " " + grape) # OUTPUT: apple banana grape 
 
 # LENGTH
-print(len(array))  # OUTPUT: 
+print(len(array))  # OUTPUT: 3
 
 # TYPE
 mixed = [10, True, 'a']
-print(mixed)  # OUTPUT: 
+print(type(mixed))  # OUTPUT: <type 'list'>
 
 # INSERT,REPLACE,DELETE value
 ## replace and insert if range is less than values provided
 array[1:2] = ["watermelon", "strawberry"]
-print(array) # OUTPUT: 
+print(array) # OUTPUT: ['apple', 'watermelon', 'strawberry', 'grape']
 ## replace only if accurate values are provided
 array[1:3] = ["blueberry", "blackberry"]
-print(array) # OUTPUT:
+print(array) # OUTPUT: ['apple', 'blueberry', 'blackberry', 'grape']
 ## relace and delete if range is greater than values provided
 array[1:4] = ["kiwi", "Jackfruit"]
-print(array) # OUTPUT: 
+print(array) # OUTPUT: ['apple', 'kiwi', 'Jackfruit']
 
 # INSERT ONLY
 array.insert(2,"mango")
-print(array) # OUTPUT: 
+print(array) # OUTPUT: ['apple', 'kiwi', 'mango', 'Jackfruit']
 
 # APPEND
 array.append("orange")
-print(array) # OUTPUT: 
+print(array) # OUTPUT: ['apple', 'kiwi', 'mango', 'Jackfruit', 'orange']
 
 # ADD another array
 salad = ["Tomato", "Cucumber", "Lettuce"]
 array.extend(salad)
-print(array) # OUTPUT: 
+print(array) # OUTPUT: ['apple', 'kiwi', 'mango', 'Jackfruit', 'orange', 'Tomato', 'Cucumber', 'Lettuce']
 # ADD another tuple(it can be any iterable)
 topping = ('salt', 'pepper')
 array.extend(topping)
-print(array) # OUTPUT: 
+print(array) # OUTPUT: ['apple', 'kiwi', 'mango', 'Jackfruit', 'orange', 'Tomato', 'Cucumber', 'Lettuce', 'salt', 'pepper']
 
 # REMOVE
 array.remove('mango')
-print(array)
+print(array) # OUTPUT: ['apple', 'kiwi', 'Jackfruit', 'orange', 'Tomato', 'Cucumber', 'Lettuce', 'salt', 'pepper']
 
 # POP
 ## remove last item by default, else the mentioned index
 array.pop()
-print(array)
+print(array) # OUTPUT: ['apple', 'kiwi', 'Jackfruit', 'orange', 'Tomato', 'Cucumber', 'Lettuce', 'salt']
 array.pop(0) # same as del
-print(array)
+print(array) # OUTPUT: ['kiwi', 'Jackfruit', 'orange', 'Tomato', 'Cucumber', 'Lettuce', 'salt']
 
 # DELETE: delete mention item, or the entire array
 del array[0]
-print(array)
+print(array) # OUTPUT: ['Jackfruit', 'orange', 'Tomato', 'Cucumber', 'Lettuce', 'salt']
 
 
 
@@ -108,7 +108,7 @@ array.reverse()
 
 # COPY: arr1 = arr2 will not work as it makes reference
 ## to make true copy use the inbuilt function
-trueCopy = array.copy()
+trueCopy = array.copy() # this work with Python 3
 
 # JOIN
 joined = array + trueCopy
