@@ -1,4 +1,4 @@
-# Is array and list same in python
+# Is array and list same
 ## No, Python do not have support of array.
 ## However, list is used as array.
 
