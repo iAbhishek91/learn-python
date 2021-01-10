@@ -1,11 +1,11 @@
 # variables are created as we assign a value to it
 # there is no command for defining variable
 a = 10
-print a # OUTPUT: 10
+print(a) # OUTPUT: 10
 
 # we also change the value after we a set a value
 a = "abhishek"
-print a # OUTPUT: abhishek
+print(a) # OUTPUT: abhishek
 
 # Var is case sensitive, hence below are two different variable
 a = 5

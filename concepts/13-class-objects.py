@@ -7,7 +7,7 @@ class FirstClass:
 firstObject = FirstClass()
 
 ## Access class member using object
-print firstObject.x # OUTPUT: 5
+print(firstObject.x) # OUTPUT: 5
 
 
 
@@ -30,7 +30,7 @@ class ClassWithConstructor:
 constructor = ClassWithConstructor(50, 60)
 
 ## Invoke member of class via object
-print constructor.a # OUTPUT: 50
+print(constructor.a) # OUTPUT: 50
 print(constructor.add()) # OUTPUT: 110
 print(constructor.addThreeNumber(10)) # OUTPUT: 120
 

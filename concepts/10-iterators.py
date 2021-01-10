@@ -24,7 +24,7 @@ print(next(myTupleIter)) # OUTPUT: banana
 # Loop through iterator
 ## In Python, "for" loop is mainly used for iterator
 for x in myTuple:
-  print x
+  print(x)
 ## OUTPUT:
 ## apple
 ## pears
@@ -42,13 +42,14 @@ class MyFibonacci:
 
   def __next__(self):
     x = self.b
+    temp_a = self.a
     self.a = self.b
-    self.b = self.a + self.b
+    self.b = temp_a + self.b
     return x
 
 
 fibonacci = MyFibonacci()
-myIter = iter(iterator)
+myIter = iter(fibonacci)
 
 for x in range(5):
-  print(next(myIter)) # 1,2,3,5,8
+  print(next(myIter)) # 1,1,2,3,5

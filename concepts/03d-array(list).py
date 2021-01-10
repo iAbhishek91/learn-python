@@ -70,7 +70,7 @@ print(array) # OUTPUT: ['Jackfruit', 'orange', 'Tomato', 'Cucumber', 'Lettuce', 
 # LOOP through
 ## LOOP items
 for x in array:
-  print x
+  print(x)
 ## LOOP index
 for i in range(len(array)):
   print(array[i])

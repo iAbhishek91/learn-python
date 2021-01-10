@@ -10,7 +10,7 @@ functionName(10, "string")
 
 # DEFAULT PARAMETER
 def defaultParam(a=10):
-  print a
+  print(a)
 
 defaultParam() # OUTPUT: 10
 defaultParam(1000) # OUTPUT: 1000
@@ -71,7 +71,7 @@ knowNothing(firstName="abhishek", lastName="das") # OUTPUT: First name is abhish
 
 ## treating function as object
 def x():
-  print "hello"
+  print("hello")
 
 y = x
 y() # OUTPUT: hello
