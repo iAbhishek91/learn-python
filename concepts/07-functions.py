@@ -5,12 +5,19 @@ def functionName(arg1, arg2):
 # INVOCATION
 functionName(10, "string")
 
+
+
+
 # DEFAULT PARAMETER
 def defaultParam(a=10):
   print a
 
 defaultParam() # OUTPUT: 10
 defaultParam(1000) # OUTPUT: 1000
+
+
+
+
 
 # DYNAMIC NUMBER OF PARAMETER
 ## not sure how many parameter to pass
@@ -21,11 +28,20 @@ def dynamicParam(*args):
 dynamicParam("alpha", "beta", "theta", "omega") # OUTPUT: ('alpha', 'beta', 'theta', 'omega')
 
 
+
+
+
+
 # PASS PARAMETER USING NAME
 def substraction(a, b):
   return a - b
 
 print(substraction(b=10, a=20)) # OUTPUT: 10
+
+
+
+
+
 
 # PASS PARAMETER NAME AND VALUE, WHEN NUMBER OF PARAMETER IS NOT KNOWN
 ## kwargs is passed as dictionary
@@ -33,6 +49,11 @@ def knowNothing(**kwargs):
   print("First name is " + kwargs["firstName"])
 
 knowNothing(firstName="abhishek", lastName="das") # OUTPUT: First name is abhishek
+
+
+
+
+
 
 
 # HIGH ORDER FUNCTION - HOF

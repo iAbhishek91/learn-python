@@ -13,6 +13,9 @@ while i < 6:
 #5
 
 
+
+
+
 # FOR
 ## NOTE: Traditional for syntax is not available
 ## Run for a range
@@ -24,6 +27,9 @@ for x in range(0, 10, 2): # run from 0, 2, 4, 6, 8
   pass
 for x in "abhishek": # run it for string, list, map, tuple, set
   pass
+
+
+
 
 # FINALLY block: Execute a code when while or FOR execution is complete
 i = 1
@@ -39,6 +45,10 @@ else:
 #4
 #5
 #WHILE EXECUTION COMPLETED
+
+
+
+
 
 # BREAK/CONTINUE a loop
 ## Break
