@@ -54,8 +54,25 @@ pip uninstall <package-name>
 
 # list all installed packages
 pip list
+
+# update pip version
+pip install --upgrade pip
 ```
 
 ## What is package in Python
 
 Package bundles all Python code that is required to create a module.
+
+## Statistics basics
+
+### Mean
+
+Mean is average. Sum of all the values divided by number of values
+
+### Median
+
+Median is middle of the sorted values in ascending.
+
+### Mode
+
+Mode is the most frequently data.
