@@ -1,5 +1,5 @@
 # Dictionary  are like javascript object
-## UNORDERED, MUTABLE, DUPLICATES NOT ALLOWED
+## UNORDERED - ordered from 3.6, MUTABLE, DUPLICATES NOT ALLOWED
 
 person = {
   "name": "bob",
