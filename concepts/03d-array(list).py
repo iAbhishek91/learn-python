@@ -49,6 +49,34 @@ print(array) # OUTPUT: ['apple', 'kiwi', 'mango', 'Jackfruit', 'orange', 'Tomato
 topping = ('salt', 'pepper')
 array.extend(topping)
 print(array) # OUTPUT: ['apple', 'kiwi', 'mango', 'Jackfruit', 'orange', 'Tomato', 'Cucumber', 'Lettuce', 'salt', 'pepper']
+empty_arr = []
+print(empty_arr) # []
+[].append('abhishek')
+print(empty_arr) # None
+array_of_dic = [{'name': 'sutapa'}, {'name': 'malpa'}]
+array_of_dic.append({'name': 'subho'})
+print(array_of_dic) # [{'name': 'sutapa'}, {'name': 'malpa'}, {'name': 'subho'}]
+array_of_dic.extend([{'name': 'dinesh'},{'name': 'tanvi'}])
+print(array_of_dic) # [{'name': 'sutapa'}, {'name': 'malpa'}, {'name': 'subho'}, {'name': 'dinesh'}, {'name': 'tanvi'}]
+iam_policy_statement_1 = [{   
+            "Sid": "test" + str(len(active_policy_statements)),
+            "Effect": "Allow",
+            "Action": "sts:AssumeRole",
+            "Resource": resources,
+            "Condition": {
+                "DateLessThan": {"aws:CurrentTime": credential_expiry}
+            },
+        }]
+iam_policy_statement_2 = [{   
+            "Sid": "test" + str(len(active_policy_statements)),
+            "Effect": "Allow",
+            "Action": "sts:AssumeRole",
+            "Resource": resources,
+            "Condition": {
+                "DateLessThan": {"aws:CurrentTime": credential_expiry}
+            },
+        }]
+print([].extend(['abhishek', 'sutapa'])) # ERR
 
 # REMOVE
 array.remove('mango')

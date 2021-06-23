@@ -40,9 +40,26 @@ constructor.a = 100
 print(constructor.addThreeNumber(10)) # OUTPUT: 170
 
 
+# STATIC keyword do not exist in python
+class StaticVariable:
+  _STATIC = "I am static"
+  def printStatic():
+    print(StaticVariable._STATIC)
+  
+StaticVariable.printStatic()
 
 
 
+# use INTERNAL method
+class ClassUseInstanceMethod:
+  def a(self):
+    return "first function"
+  
+  def b(self):
+    print(self.a())
+
+obj = ClassUseInstanceMethod()
+obj.b()
 
 
 
