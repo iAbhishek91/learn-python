@@ -19,6 +19,19 @@ defaultParam(1000) # OUTPUT: 1000
 
 
 
+# Defining data type
+def add(a:str, b:str):
+  print(a+b)
+
+
+add(2, 3)
+
+
+
+
+
+
+
 # DYNAMIC NUMBER OF PARAMETER
 ## not sure how many parameter to pass
 ## args is passed as tuple | * is not pointer as in C 

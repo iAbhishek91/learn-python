@@ -76,3 +76,34 @@ Median is middle of the sorted values in ascending.
 ### Mode
 
 Mode is the most frequently data.
+
+## What difference between Java Package and Python module
+
+can it be span across multiple files??
+yes we dan do it 
+
+form algo.mod import test
+
+__init__.py this file are executed when a module is imported.
+
+use cases:
+- empty __init__.py file are kept to make user understand that its a python module.
+- what * includes in the module(files) __all__= []
+
+__pycache__ are compiled files, just used in local to speed up execution, not to be versioned or ship in modules or binary.
+
+## Best practices
+
+- Unlike Java we need to create a class per file, in python all class which are used together by user are kept in same file.
+- We create few class in python than in Java, because different type of data structure
+
+## Whats $PYTHONPATH env variable
+
+## dir() function
+
+defines what particular module defines.
+
+## what are diff between _ and __
+
+_ are private variable, as there are no concept of private in Python
+__  python internal methods have special meaning (also known as DUNDER)

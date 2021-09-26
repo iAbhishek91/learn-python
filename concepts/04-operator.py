@@ -1,3 +1,5 @@
+# NOTE we don't put space between binary operator like in JAVA or JAVASCRIPT
+# there tools like lints - mypy
 # ARITHMETIC
 print(2**3) # power - OUTPUT:  8
 print(5//2) # floor division - OUTPUT: 2

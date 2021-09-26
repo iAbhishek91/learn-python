@@ -28,10 +28,19 @@ for x in range(0, 10, 2): # run from 0, 2, 4, 6, 8
 for x in "abhishek": # run it for string, list, map, tuple, set
   pass
 
+# FOR - ELSE
+for x in range(14):
+  print(x)
+  if x > 8:
+    print("range is more than 8")
+    break
+else:
+  print("All item is processed, and its less than 8") # will NOT be executed as break is encountered
 
 
 
-# FINALLY block: Execute a code when while or FOR execution is complete
+
+# FINALLY block: Execute a code when while or FOR execution is complete without break
 i = 1
 while i < 6:
   print(i)

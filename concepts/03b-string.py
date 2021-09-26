@@ -71,6 +71,6 @@ template = "my name is {}"
 complexTemplate = "my name is {0}, but I like it as {1}"
 print(template.format("abhi"))  # OUTPUT: my name is abhi
 print(complexTemplate.format("abhishek", "doctor D"))   # OUTPUT: my name is abhishek, but I like it as doctor D
-
+print
 # LIST of other string function
 #https://www.w3schools.com/python/python_strings_methods.asp
