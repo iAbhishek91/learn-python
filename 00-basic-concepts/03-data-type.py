@@ -1,11 +1,12 @@
 """
-Text Type:	str
-Numeric Types:	int, float, complex
-Sequence Types:	list, tuple, range
+Text Type:	str(immutable)
+Numeric Types:	int(immutable), float(immutable), complex(immutable)
+Sequence Types:	list(immutable), tuple, range
 Mapping Type:	dict
 Set Types:	set, frozenset
-Boolean Type:	bool
+Boolean Type:	bool(immutable)
 Binary Types:	bytes, bytearray, memoryview
+none
 """
 #TEXT
 v_str = 'abhishek'
@@ -14,7 +15,7 @@ v_int = 10
 v_float = 10.999
 # format 10+20j(or 10.34+45.390j) print real and imaginary part; value of j is sqrt(-1). v_complex.real = 10.0, v_complex.imag = 20.0
 # both real and imaginary part can be integer and float
-# real part can be represented in binary, octal, decimal and hexadecimal, however imaginary part cant represent anything apart from decimal
+# real part can be represented in binary, octal, decimal and hexadecimal, however imaginary part only be in decimal form
 # arithmetic operation(+-*/) are allowed 10+20j + 20+30j = 30+50j
 v_complex = 1j
 #SEQUENCE

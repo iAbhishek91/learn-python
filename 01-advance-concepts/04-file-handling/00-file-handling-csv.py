@@ -3,7 +3,7 @@
 # pip install pandas
 import pandas as pd
 
-filepath = './concepts/95c-test.csv'
+filepath = './01-advance-concepts/04-file-handling/00a-test.csv'
 
 dataframe = pd.read_csv(filepath)
 
@@ -77,7 +77,7 @@ print(dataframe.info())
 ## - Data in wrong format
 ## - Wrong data
 ## - Duplicates
-dirtyfilepath = './concepts/95d-dirty.csv'
+dirtyfilepath = './01-advance-concepts/04-file-handling/00b-dirty.csv'
 
 dirtydata = pd.read_csv(dirtyfilepath)
 

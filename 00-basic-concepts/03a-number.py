@@ -14,6 +14,7 @@ print(int3, int4, int5) # OUTPUT: 15, 4012 39030 they always output as decimal
 
 
 #FLOAT
+## float are always are allowed to represent in DECIMAL VALUE
 float1 = 1232347019837401928374.12398471029384710928347
 float2 = 12234e2
 float3 = 56.23e3

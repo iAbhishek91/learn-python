@@ -39,5 +39,3 @@ print(isinstance(manager1, Developer)) ## False
 print(issubclass(Developer, Employee)) ## True
 print(issubclass(Manager, Employee)) ## True
 print(issubclass(Developer, Manager)) ## False
-
-## in case of multiple inheritance, the super should be in order of definition

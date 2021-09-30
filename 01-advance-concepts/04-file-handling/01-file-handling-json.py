@@ -17,7 +17,7 @@
 ## open a file in read mode
 ## path should be relative from where python command is executed OR absolute
 import json
-fd = open('./concepts/95a-test.json')
+fd = open('./01-advance-concepts/04-file-handling/01a-test.json')
 ## read the content of the file
 jsonData = fd.read()
 ## close the file descriptor
@@ -31,7 +31,7 @@ myDictionary["lastName"] = "das"
 jsonData = json.dumps(myDictionary)
 print(jsonData) # output: {"firstName": "abhishek", "age": 50, "lastName":"das"}
 ## open the same file in write mode
-fd = open('./concepts/95a-test.json', 'w')
+fd = open('./01-advance-concepts/04-file-handling/01a-test.json', 'w')
 ## write the data in the file
 fd.write(jsonData)
 ## close the file descriptor
@@ -46,7 +46,7 @@ fd.close()
 ## and Delete the file if exists
 import os
 
-filePath = './concepts/95b-to-be-delete.json'
+filePath = './01-advance-concepts/04-file-handling/01b-to-be-delete.json'
 ## check if file exists
 if os.path.exists(filePath):
   os.remove(filePath)

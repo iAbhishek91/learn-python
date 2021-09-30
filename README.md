@@ -80,13 +80,14 @@ Mode is the most frequently data.
 ## What difference between Java Package and Python module
 
 can it be span across multiple files??
-yes we dan do it 
+yes we dan do it
 
 form algo.mod import test
 
 __init__.py this file are executed when a module is imported.
 
 use cases:
+
 - empty __init__.py file are kept to make user understand that its a python module.
 - what * includes in the module(files) __all__= []
 
