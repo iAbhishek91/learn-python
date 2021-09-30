@@ -72,3 +72,12 @@ print(color.count("blue")) # OUTPUT: 0
 
 # FIND INDEX OF ELEMEMT
 print(color.index("red"))  # OUTPUT: 2
+
+
+
+
+
+## Tuple comprehention
+## is not possible, like list comprehention
+t = (x for x in range(10))
+print(t) ## this will create a generator, refer to generator concept in advance python

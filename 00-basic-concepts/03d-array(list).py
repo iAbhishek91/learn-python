@@ -58,6 +58,11 @@ array_of_dic.append({'name': 'subho'})
 print(array_of_dic) # [{'name': 'sutapa'}, {'name': 'malpa'}, {'name': 'subho'}]
 array_of_dic.extend([{'name': 'dinesh'},{'name': 'tanvi'}])
 print(array_of_dic) # [{'name': 'sutapa'}, {'name': 'malpa'}, {'name': 'subho'}, {'name': 'dinesh'}, {'name': 'tanvi'}]
+
+# example of list
+active_policy_statements = "XXXXXXXXXXXXXX"
+resources = 'YYYYYYYY'
+credential_expiry = 'ZZZZZZZZZ'
 iam_policy_statement_1 = [{   
             "Sid": "test" + str(len(active_policy_statements)),
             "Effect": "Allow",
@@ -141,3 +146,13 @@ trueCopy = array.copy() # this work with Python 3
 # JOIN
 joined = array + trueCopy
 ## else use append() or extend()
+
+
+
+
+print('*'*30)
+## LIST comprehention
+l1 = [x for x in range(10)]
+l2 = [x*x for x in range(20)]
+print(l1)
+print(l2)
