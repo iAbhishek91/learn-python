@@ -79,6 +79,9 @@ Mode is the most frequently data.
 
 ## What difference between Java Package and Python module
 
+<details>
+
+<summary>Java Package and Python module</summary>
 can it be span across multiple files??
 yes we dan do it
 
@@ -92,6 +95,8 @@ use cases:
 - what * includes in the module(files) __all__= []
 
 __pycache__ are compiled files, just used in local to speed up execution, not to be versioned or ship in modules or binary.
+
+</details>
 
 ## Best practices
 
