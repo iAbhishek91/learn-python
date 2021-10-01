@@ -13,7 +13,9 @@ we are using python 3.8.2
 - **Functional Programming**: Python consider function as first class citizen and provides many techniques which support functional programming paradigm.
 - **Object Oriented programming**: Python is a object oriented programming language. Supports concept of class and object. Everything(function, properties) in Python is object, which is very similar to Javascript.
 
-## Commands
+<details>
+
+<summary>python Commands:</summary>
 
 ```shell script
 # check the version of python
@@ -23,7 +25,7 @@ python --version
 python to/file/path/test.py
 
 # enter python command line
-py
+python
 
 # exit from the python command line
 >>>exit()
@@ -32,11 +34,17 @@ py
 alias python='python3'
 ```
 
+</details>
+
 ## What is PIP
 
 Like Node has NPM as package manager, similarly pip is package manager for Python.
 
 Default registry for PIP is https://pypi.org
+
+<details>
+
+<summary>PIP Commands:</summary>
 
 ```sh
 # to make pip to work from command prompt
@@ -58,6 +66,8 @@ pip list
 # update pip version
 pip install --upgrade pip
 ```
+
+</details>
 
 ## What is package in Python
 
