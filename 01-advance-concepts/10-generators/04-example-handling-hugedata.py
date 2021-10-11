@@ -22,16 +22,22 @@ def developer_generator(n):
             'subject': choice(subjects)
         }
         yield developer
+        print("end of iteration")
+    
 
+
+# tStart=clock() # start the clock
+# developers=developer_list(1000000000)
+# tEnd=clock()
+
+# print('Time taken for list: ', tEnd - tStart, 'seconds')
 
 tStart=clock() # start the clock
-developers=developer_list(10000000)
-tEnd=clock()
-
-print('Time taken for list: ', tEnd - tStart, 'seconds')
-
-tStart=clock() # start the clock
-developers=developer_generator(10000000)
+developers=developer_generator(1000000000)
+print(type(developers))
+print(next(developers))
+# for i in developers:
+#     print(i)
 tEnd=clock()
 
 print('*'*30)

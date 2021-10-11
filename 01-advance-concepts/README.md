@@ -10,3 +10,4 @@
 - 08: Python Data Base Connectivity (PDBC)
 - 09: Decorators
 - 10: Generators
+- 11: Python venv and requirements.txt

@@ -156,3 +156,9 @@ l1 = [x for x in range(10)]
 l2 = [x*x for x in range(20)]
 print(l1)
 print(l2)
+
+
+print('*'*30)
+# sort a list of dictionary
+data=[{"name":"Abhishek", "age": 32}, {"name":"DoctorD", "age":31}]
+print(sorted(data, key=lambda k: k["age"]))
