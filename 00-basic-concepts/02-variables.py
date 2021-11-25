@@ -1,3 +1,5 @@
+# NAMING variables:
+# snake case | no keywords | no start with number and symbol
 # variables are created as we assign a value to it
 # there is no command for defining variable
 a = 10

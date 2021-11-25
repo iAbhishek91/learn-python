@@ -123,3 +123,7 @@ defines what particular module defines.
 
 _ are private variable, as there are no concept of private in Python
 __  python internal methods have special meaning (also known as DUNDER)
+
+## Reference of python
+
+askpython - read about any python modules
