@@ -55,6 +55,7 @@ print(single[-3:])  # OUTPUT: das
 #UPPER and LOWER
 print(single.upper())  # OUTPUT: ABHISHEK DAS
 print(single.lower())  # OUTPUT: abhishek das
+print(single.title())  # OUTPUT: Abhishek Das
 
 #STRIP (same as TRIM)
 withSpace = " bla bla bla     "
