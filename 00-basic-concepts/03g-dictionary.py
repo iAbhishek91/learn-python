@@ -50,5 +50,12 @@ print(person.keys()) # OUTPUT: ['city', 'age', 'name']
 
 
 
+# EMPTY a dictionary
+a = {"a":"a"}
+a = {}
+print(a) # a is now empty
+
+
+# COPY dictionary
 copyPerson = person.copy()
 print(copyPerson) # OUTPUT: {'city': 'Mexico', 'age': 50, 'name': 'rob'}

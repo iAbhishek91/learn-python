@@ -1,2 +1,4 @@
 .idea
 concepts/95b-to-be-delete.json
+
+*/**/__pycache__
