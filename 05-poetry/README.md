@@ -32,7 +32,8 @@ poetry add request==2.25.1
 
 poetry env info # python virtual env and some other metadata
 
-poetry update # reinstalls all the dependencies
+poetry install # install all dependencies
+poetry update # update and reinstalls all the dependencies
 
 poetry build # build the project in package, creates a dist folder and puts the gz file there
 
@@ -44,6 +45,8 @@ poetry publish # publish to global python registry
 This scaffolds multiple file.
 
 - pyproject.toml: is the configuration file, very similar to package.json. Contains details about the project, authors, dependencies, dev-dependencies and version.
+
+- poetry.lock: same as package.lock.yaml
 
 ## environment variables
 

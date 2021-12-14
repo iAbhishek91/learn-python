@@ -42,6 +42,13 @@ Like Node has NPM as package manager, similarly pip is package manager for Pytho
 
 Default registry for PIP is https://pypi.org
 
+There are other package manager as well like: poetry
+
+Few limitation of pip
+
+- synchronous while downloading dependency, hence really slower.
+- cant do build or publish modules.
+
 <details>
 
 <summary>PIP Commands:</summary>
@@ -56,6 +63,8 @@ python -m pip --version
 
 # install a package
 pip install <package-name>
+pip install <package-name>==<version>
+pip install -r requirements.txt
 
 # uninstall a package
 pip uninstall <package-name>
@@ -65,9 +74,26 @@ pip list
 
 # update pip version
 pip install --upgrade pip
+
+# list all python packages that are installed in the system
+pip freeze
 ```
 
 </details>
+
+## virtual environment
+
+```sh
+python3 -m pip install --user --upgrade pip
+python3 -m pip install --user virtualenv
+python3 -m venv env # name should be venv
+```
+
+## What is the use of pypirc and pip.conf
+
+- pypirc is file used by multiple tools, but not by *pip*. For example `twine` and `easy_install`. Its mostly used by package used for publishing, if you are not publishing we mostly dont need this file.
+
+- pip.conf - this file is only used by pip, so if you are using any other tools like poetry or other its never used.
 
 ## What is package in Python
 
@@ -126,4 +152,5 @@ __  python internal methods have special meaning (also known as DUNDER)
 
 ## Reference of python
 
-askpython - read about any python modules
+askpython - read about any python modules, inbuilt function just search it will throw result
+pypi - its like npm, contains all the python modules and its a python default registry.

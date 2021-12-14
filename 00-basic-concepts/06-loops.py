@@ -1,5 +1,6 @@
 # FOR and WHILE are primitive loops available in Python
-
+# WHILE should have a conditional statement,
+# where as in FOR its looping through list/range/map/string etc
 # WHILE
 i = 1
 while i < 6:

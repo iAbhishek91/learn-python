@@ -1,5 +1,5 @@
-# DECLARATION
-def functionName(arg1, arg2):
+### POSITIONAL ARGUMENT
+def functionName(arg1, arg2):  # function with positional argument
   pass
 
 # INVOCATION
@@ -8,8 +8,19 @@ functionName(10, "string")
 
 
 
-# DEFAULT PARAMETER
-def defaultParam(a=10):
+### KEYWORD ARGUMENT
+def keywordArgument(a, b):
+  print(a-b)
+
+# INVOCATION
+keywordArgument(b=2, a=3) # output: 1
+keywordArgument(a=2, b=3) # output: -1
+
+
+
+
+### DEFAULT PARAMETER (NOTE: PARAMETER and ARGUMENT are NEVER same thing)
+def defaultParam(a=10): # "a" is a PARAMETER and | "10" is a argument
   print(a)
 
 defaultParam() # OUTPUT: 10
@@ -25,7 +36,6 @@ def add(a:str, b:str):
 
 
 add(2, 3)
-
 
 
 
