@@ -98,3 +98,11 @@ def x():
 
 y = x
 y() # OUTPUT: hello
+
+
+# DOCSTRING
+def documentedFunction():
+  '''ha ha ha'''
+  pass
+
+documentedFunction()
