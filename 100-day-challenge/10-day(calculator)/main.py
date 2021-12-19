@@ -12,6 +12,9 @@ def mul(a:float, b:float):
 def div(a:float, b:float):
     return a / b
 
+def percentage(a:float, b:float):
+    return (a * b) / 100
+
 def squareRoot(a:float):
     return math.sqrt(a)
 
@@ -27,6 +30,7 @@ binary_operations = {
     '-': sub,
     '*': mul,
     '/': div,
+    '%': percentage
 }
 
 def calc():
