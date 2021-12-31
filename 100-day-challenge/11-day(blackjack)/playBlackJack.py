@@ -23,23 +23,22 @@ LABEL_Q = cards_pattern('Q')
 LABEL_K = cards_pattern('K')
 
 
-cards = {
-    'A': { 'cards': LABEL_A, 'value': 11}, 
-    '2': { 'cards': LABEL_2, 'value' : 2,},
-    '3': { 'cards': LABEL_3, 'value' : 3,},
-    '4': { 'cards': LABEL_4, 'value' : 4,},
-    '5': { 'cards': LABEL_5, 'value' : 5,},
-    '6': { 'cards': LABEL_6, 'value' : 6,},
-    '7': { 'cards': LABEL_7, 'value' : 7,},
-    '8': { 'cards': LABEL_8, 'value' : 8,},
-    '9': { 'cards': LABEL_9, 'value' : 9,},
-    '10': { 'cards': LABEL_10, 'value' : 10,},
-    'J': { 'cards': LABEL_J, 'value' : 10,},
-    'Q': { 'cards': LABEL_Q, 'value' : 10,},
-    'K': { 'cards': LABEL_K, 'value' : 10,},
-}
-
 def removeAndReturnCard():
+    cards = {
+        'A': { 'cards': LABEL_A, 'value': 11}, 
+        '2': { 'cards': LABEL_2, 'value' : 2,},
+        '3': { 'cards': LABEL_3, 'value' : 3,},
+        '4': { 'cards': LABEL_4, 'value' : 4,},
+        '5': { 'cards': LABEL_5, 'value' : 5,},
+        '6': { 'cards': LABEL_6, 'value' : 6,},
+        '7': { 'cards': LABEL_7, 'value' : 7,},
+        '8': { 'cards': LABEL_8, 'value' : 8,},
+        '9': { 'cards': LABEL_9, 'value' : 9,},
+        '10': { 'cards': LABEL_10, 'value' : 10,},
+        'J': { 'cards': LABEL_J, 'value' : 10,},
+        'Q': { 'cards': LABEL_Q, 'value' : 10,},
+        'K': { 'cards': LABEL_K, 'value' : 10,},
+    }
     card_label = random.choice([ x for x in cards ])
     cards_with_label = cards[card_label]['cards']
     card_label_value = cards[card_label]['value']

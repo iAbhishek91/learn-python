@@ -1,0 +1,1 @@
+''' use UPPER case, there is NO keyword or other logic for constants in python'''

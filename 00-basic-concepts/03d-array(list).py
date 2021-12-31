@@ -47,6 +47,7 @@ array.extend(salad)
 print(array) # OUTPUT: ['apple', 'kiwi', 'mango', 'Jackfruit', 'orange', 'Tomato', 'Cucumber', 'Lettuce']
 # ADD another tuple(it can be any iterable)
 topping = ('salt', 'pepper')
+print('*'*30)
 array.extend(topping)
 print(array) # OUTPUT: ['apple', 'kiwi', 'mango', 'Jackfruit', 'orange', 'Tomato', 'Cucumber', 'Lettuce', 'salt', 'pepper']
 empty_arr = []
@@ -162,3 +163,7 @@ print('*'*30)
 # sort a list of dictionary
 data=[{"name":"Abhishek", "age": 32}, {"name":"DoctorD", "age":31}]
 print(sorted(data, key=lambda k: k["age"]))
+
+
+# complex one liner 
+# print([x['Key'] for x in response['Contents'] if x['Key'].split('/')[0] not in ['Backup', 'None']])
