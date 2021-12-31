@@ -1,6 +1,8 @@
 import random
 
 LEVELS = ['easy', 'hard']
+HARD_ROUNDS = 6
+EASY_ROUNDS = 10
 
 # user input
 level = input(f"Choose your level ({LEVELS}): ")
@@ -9,7 +11,7 @@ level = input(f"Choose your level ({LEVELS}): ")
 number = random.randint(0, 100)
 
 # calculate no_of_round, based on level
-no_of_round = 10 if level == 'easy' else 6
+no_of_round = EASY_ROUNDS if level == 'easy' else HARD_ROUNDS
 
 
 
