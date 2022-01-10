@@ -14,7 +14,6 @@ number = random.randint(0, 100)
 no_of_round = EASY_ROUNDS if level == 'easy' else HARD_ROUNDS
 
 
-
 while no_of_round > 0:
     print(f"You have {no_of_round} round left!!")
     no_of_round -= 1

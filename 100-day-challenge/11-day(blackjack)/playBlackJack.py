@@ -103,7 +103,7 @@ if dealer_value == BLACK_JACK and player_value == BLACK_JACK:
 elif dealer_value == BLACK_JACK:
         displayIndividualInfo('dealer')
         print("Dealer win!! - It's a BLACKJACK")
-        # money deducted from pot
+        # TODO: blackjack pot: money deducted
 # if player has blackjack, player wins
 elif player_value == BLACK_JACK:
         # double money is added to the pot
