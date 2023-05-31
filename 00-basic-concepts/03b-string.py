@@ -67,7 +67,7 @@ print(single.replace('a', 'A'))  # OUTPUT: Abhishek dAs
 #SPLIT
 print(single.split(' '))  # OUTPUT: ['abhishek', 'das']
 
-#TEMPLATING
+#TEMPLATING (also called python formatted string)
 template = "my name is {}"
 complexTemplate = "my name is {0}, but I like it as {1}"
 print(template.format("abhi"))  # OUTPUT: my name is abhi

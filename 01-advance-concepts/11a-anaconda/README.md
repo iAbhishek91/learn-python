@@ -4,6 +4,12 @@
 # check if conda is installed in your path
 conda -V
 
+# list of all the virtual environment
+conda env list
+
+# list of python packages installed in a environment
+conda list
+
 # update conda environment
 conda update conda
 
@@ -15,6 +21,10 @@ conda install -n tf-project pyhcl
 # OR
 # activate a vEnv and pip install package name
 pip install pyhcl
+pip install -r requirements.txt
+
+# update python in a virtual environment
+conda install python=3.9
 
 # activate a virtual env
 conda activate tf-project

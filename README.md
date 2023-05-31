@@ -36,50 +36,6 @@ alias python='python3'
 
 </details>
 
-## What is PIP
-
-Like Node has NPM as package manager, similarly pip is package manager for Python.
-
-Default registry for PIP is https://pypi.org
-
-There are other package manager as well like: poetry
-
-Few limitation of pip
-
-- synchronous while downloading dependency, hence really slower.
-- cant do build or publish modules.
-
-<details>
-
-<summary>PIP Commands:</summary>
-
-```sh
-# to make pip to work from command prompt
-alias pip='python -m pip'# in ~/.bashrc
-
-# make sure pip is installed
-# latest version of python comes with pip
-python -m pip --version
-
-# install a package
-pip install <package-name>
-pip install <package-name>==<version>
-pip install -r requirements.txt
-
-# uninstall a package
-pip uninstall <package-name>
-
-# list all installed packages
-pip list
-
-# update pip version
-pip install --upgrade pip
-
-# list all python packages that are installed in the system
-pip freeze
-```
-
-</details>
 
 ## virtual environment
 
