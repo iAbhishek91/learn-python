@@ -8,7 +8,7 @@ class ClassWithConstructor:
   def add(self):
     return self.a + self.b
 
-  def addThreeNumber(abc, third):
+  def add_three_number(abc, third):
     return abc.a + abc.b + third
   
 
@@ -18,12 +18,12 @@ constructor = ClassWithConstructor(50, 60)
 ## Invoke member of class via object
 print(constructor.a) # OUTPUT: 50
 print(constructor.add()) # OUTPUT: 110
-print(constructor.addThreeNumber(10)) # OUTPUT: 120
+print(constructor.add_three_number(10)) # OUTPUT: 120
 
 
 ## Modify class members
 constructor.a = 100
-print(constructor.addThreeNumber(10)) # OUTPUT: 170
+print(constructor.add_three_number(10)) # OUTPUT: 170
 
 
 
