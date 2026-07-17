@@ -19,3 +19,15 @@ addFour = addX(4)
 
 print(addFive(14)) # OUTPUT: 19
 print(addFour(16)) # OUTPUT: 20 
+
+# another bit more complex
+hashmap = {
+  "auth": 2,
+  "sec": 3,
+  "logout": 1
+} # dictionary
+
+print(hashmap.items())
+
+print((lambda hm: hm[1])(list(hashmap.items())[0])) # this is what hashmap calls it
+print(sorted(hashmap.items(), key=lambda hashmap: hashmap[1], reverse=True))
